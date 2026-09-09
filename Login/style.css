@@ -1,18 +1,61 @@
-/* Base setup */
-.shape {
-  background-color: #3498db;
-  margin: 20px;
+/* general setup */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: arial, sans-serif;
 }
 
-/* Rectangle: The natural default state of HTML blocks */
-.rectangle {
-  width: 150px;
-  height: 100px;
+body {
+  background-color: #ffdc33;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-/* Circle: Equal height and width with 100% border-radius */
-.circle {
-  width: 100px;
-  height: 100px;
-  border-radius: 100%;
+/* top navbar */
+.navbar {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 15px;
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.navbar .logo img {
+  height: 32px;
+  width: 32px;
+}
+
+.navbar .biterush-title {
+  font-weight: bold;
+  font-size: 18.5px;
+}
+
+.page-title {
+  color: #555555;
+  font-size: 15.85px;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px 20px;
+}
+
+.brand-section {
+  text-align: center;
+}
+
+.burger-mascot {
+  width: 200px;
+  margin-bottom: 15px;
 }
