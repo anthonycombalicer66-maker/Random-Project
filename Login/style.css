@@ -53,9 +53,36 @@ body {
 
 .brand-section {
   text-align: center;
+  font-size: 20px;
+  margin-top: 0;
 }
 
 .burger-mascot {
-  width: 200px;
-  margin-bottom: 15px;
+  display: block;
+  width: 230px;
+  margin-bottom: -15px;
+}
+
+.biterush-center {
+  font-size: 52px;
+  font-weight: 900;
+}
+
+.brand-section p {
+  font-size: 20px;
+}
+
+.login-box {
+  background-color: #f7f8ff;
+  border-radius: 6px;
+  padding: 35px;
+  width: 100%;
+  max-width: 420px;
+}
+
+h2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
 }
