@@ -73,6 +73,8 @@ body {
 }
 
 .login-box {
+  position: relative;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0, 08);
   background-color: #f7f8ff;
   border-radius: 6px;
   padding: 35px;
@@ -85,4 +87,123 @@ h2 {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+}
+
+.qr-section {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.qr-notif {
+  background-color: #7b7f87;
+  font-size: 0.7rem;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 3px;
+}
+
+.qr-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.login-box h2 {
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+  color: #111111;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  outline: none;
+}
+
+.password-group {
+  position: relative;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 12px;
+  top: 35%;
+  transform: translate(-50%);
+  color: #777777;
+  cursor: pointer;
+}
+
+.button-primary {
+  width: 100%;
+  padding: 12px;
+  background-color: #ffdc33;
+  border: 1px solid #e0be16;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 0.95rem;
+}
+
+.forgot-password {
+  display: block;
+  font-size: 0.75rem;
+  color: #4a70d6;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 17px 0;
+  color: #aaaaaa;
+  margin-left: 160px;
+}
+
+.line::before line::after {
+  content: '';
+  flex: 1;
+  border-radius: 1px solid #dddddd;
+}
+
+.line span {
+  padding: 0 10px;
+  font-size: 0.7rem;
+}
+
+.social-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.btn-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  flex: 1;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+}
+
+.signup-prompt {
+  color: #4a70d6;
+  text-decoration: none;
 }
